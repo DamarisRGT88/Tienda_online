@@ -1,0 +1,62 @@
+GET http://localhost:3000/api/products
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNkNjNkY2U4NDg0Mzk3NGU3OTA5OGYiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY2NDk3MTE3Mn0.CvBkARXVUdm7T3rpPbB4hbUlNqSIGvJzvNL_u0q1CBc
+
+###
+GET http://localhost:3000/api/products/633be6c3c869c8b89ddf9a31
+
+###
+GET http://localhost:3000/api/products/dpto/moda
+
+
+###
+GET http://localhost:3000/api/products/pr/10
+
+
+###
+GET http://localhost:3000/api/products/pr/max/90
+
+###
+GET http://localhost:3000/api/products/list/2
+
+
+###
+GET http://localhost:3000/api/products/dpto/stats
+
+
+###
+GET http://localhost:3000/api/products/dpto/same
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNkNjNkY2U4NDg0Mzk3NGU3OTA5OGYiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY2NTA0MjkyMn0.-xy_Q4GNoacUzPLgqPHO_ae01KPQ1siHkQlpOE4UZ7w
+
+
+
+###
+GET http://localhost:3000/api/products/add/633d326b8057b759c2382008
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNkNjNkY2U4NDg0Mzk3NGU3OTA5OGYiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY2NTA0MjkyMn0.-xy_Q4GNoacUzPLgqPHO_ae01KPQ1siHkQlpOE4UZ7w
+
+
+###
+GET http://localhost:3000/api/products/taxes
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNkNjNkY2U4NDg0Mzk3NGU3OTA5OGYiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY2NTA0MjkyMn0.-xy_Q4GNoacUzPLgqPHO_ae01KPQ1siHkQlpOE4UZ7w
+
+###
+GET http://localhost:3000/api/products/cart
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzNkNjNkY2U4NDg0Mzk3NGU3OTA5OGYiLCJyb2xlIjoicmVndWxhciIsImlhdCI6MTY2NTA0MjkyMn0.-xy_Q4GNoacUzPLgqPHO_ae01KPQ1siHkQlpOE4UZ7w
+
+
+###
+GET http://localhost:3000/api/products/availables
+
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    
+    "name": "Sandwichera",
+    "description": "Imprime la cara de yoda",
+    "price": 29,
+    "department": "cocina",
+    "available": true,
+    "stock": 10
+  }
